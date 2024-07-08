@@ -1,0 +1,71 @@
+@media (max-width:700px) {
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: block;
+    }
+}
+
+/* home-page */
+
+@media (max-width:700px) {
+    .home-container{
+        display: grid;
+        margin: 0;
+        padding: 0;
+    }
+    .center-box-leftchild, .center-box-rightchild {
+        width: 100%;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .center-box-leftchild{
+        margin-top: -100px;
+    }
+    .center-box-rightchild{
+        margin-top: -300px;
+    }
+    .about{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: auto;
+    }
+    .about-left-container, .about-right-container{
+        width: 99%;
+        text-align: center;
+        align-items: center;
+        
+        /* background-color: aqua; */
+
+    }   
+}
+/* .service section :start */
+
+
+/* .skill section :start */
+
+@media (max-width:900px) {
+    .services{
+        height: auto;
+    }
+}
+ @media (max-width:800px) {
+    .container{
+        display: none;
+    }
+    .container2{
+        display: block;
+    }
+} 
+@media (max-width:550px) {
+    .container2{
+        display: none;
+    }
+    .container3{
+        display: block;
+    }
+}
+/* .skill section :end */
